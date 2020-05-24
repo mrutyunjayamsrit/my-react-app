@@ -1,0 +1,59 @@
+.hackernews-table {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.hackernews-table .table-header {
+  background: #ff6600;
+  color: #fff;
+  font-size: 13px;
+}
+
+.link-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.link-wrapper > a {
+  color: #ff6600;
+  font-weight: bold;
+}
+
+.link-wrapper a + a:before {
+  content: '|';
+  padding: 5px;
+}
+
+.hackernews-table .table-body {
+  font-size: 12px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.story-url > a {
+  color: #808080;
+}
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #808080;
+  display: inline-block;
+}
+
+.hide-story, .story-url, .arrow-up {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.chart-container {  
+  border-top: 3px solid #ff6600;
+  border-bottom: 5px solid #ff6600;
+  padding: 10px;
+  margin: 10px 0;
+}

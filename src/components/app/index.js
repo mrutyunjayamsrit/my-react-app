@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { StoryBody } from '../app/StoryBody';
 import { StoryHeader } from '../app/StoryHeader';
 import { Link } from '../app/Link';
-import { LineChart } from './Linechart';
+import { LineChart } from './linechart';
 import { actions } from '../../actions';
 
 export const App = () => {

@@ -1,9 +1,9 @@
 {
   "name": "hackernews",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "engines": {
-    "node":"10.15.0",
+    "node": "10.15.0",
     "npm": "6.4.1"
   },
   "dependencies": {
@@ -24,7 +24,7 @@
     "webpack": "4.42.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "heroku-postbuild": "npm run build",
     "test": "react-scripts test",
